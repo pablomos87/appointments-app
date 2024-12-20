@@ -1,0 +1,40 @@
+
+.appointmentRow tr:nth-child(even) {
+    background-color: #f9f9f9;
+    
+}
+
+.appointmentRow tr:hover {
+    background-color: #ddd;
+}
+
+.cancelButton {
+    background-color: #f8f9fa; 
+    color: #343a40; 
+    border: 1px solid #ced4da;
+    border-radius: 4px; 
+    padding: 5px 15px; 
+    font-size: 16px; 
+    font-weight: 500; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cancelButton:hover {
+    background-color: #e2e6ea; 
+    transform: translateY(-2px);
+}
+
+.cancelButton:focus {
+    outline: none; 
+    box-shadow: 0 0 0 2px rgba(52, 58, 64, 0.5); 
+}
+
+.cancelled {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .active {
+    color: blue;
+    font-weight: bold;
+  }

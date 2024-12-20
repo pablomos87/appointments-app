@@ -1,0 +1,62 @@
+.contactFormContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #deddb9;;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contactFormContainer h3{
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:  #605f6d;
+    font-weight: lighter;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.contactFormText {
+    font-size: 20px;
+    width: 55%;
+    color:  #605f6d;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    }
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.contactFormInput{
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    color: #bbb;
+    background-color: #f0f0eb;
+}
+
+.contactFormTextarea{
+    margin: 5px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #bbb;
+    background-color: #f0f0eb;
+}
+
+.contactFormButton{
+    margin-top: 10px;
+    width: 15%;
+    align-self: center;
+    padding: 15px 5px;
+    background: #97a281;
+    border: 2px solid black;
+    color: #f0f0eb;
+    font-size: 18px;
+}

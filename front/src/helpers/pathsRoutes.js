@@ -1,0 +1,7 @@
+export const REGISTER = '/registro'
+export const LOGIN = '/login'
+export const HOME = '/'
+export const MY_APPOINTMENTS = '/mis_turnos'
+export const CONTACT= '/contacto'
+export const ABOUT = '/sobre_nosotros'
+export const SCHEDULE_APPOINTMENT = '/sacar_turno'

@@ -1,0 +1,60 @@
+.section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+.imgContainer {
+    background-image: url('../../assets/BR-neurons-illustration.jpg');
+    background-size:cover;
+    width: 60%;
+    height: 80%;
+    opacity: 1.1; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgContainer h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fafaf2; 
+    font-weight: bold;
+    margin: 0;
+    font-size: 48px;
+    align-self: center;
+    text-shadow: 4px 4px 8px rgba(0.5, 0.5, 0.5, 0.7),  
+    4px 4px 8px rgba(1.1, 1.6, 1.6, 1.9);  
+    opacity: 10.5;
+}
+
+.text {
+    font-size: 30px;
+    color: #fafaf2; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    text-shadow: 6px 6px 14px rgba(0.8, 0.8, 0.8, 0.9),  
+    4px 4px 8px rgba(1.1, 1.6, 1.6, 1.9);  
+    opacity: 10.5;
+}
+
+
+.button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

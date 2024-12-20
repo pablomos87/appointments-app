@@ -1,0 +1,85 @@
+.navbarContainer {
+    position: fixed;
+    background-color: #fafaf2; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0;
+    text-align: center;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #deddb9;
+}
+
+.navbarList {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten si el espacio es reducido */
+    background-color: #fafaf2; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border: 1px solid #deddb9;
+}
+
+.navbarItem {
+    flex: 1; /* Distribuye espacio equitativamente */
+    border-left: 1px solid #deddb9;
+    border-right: 1px solid #deddb9;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.navbarItem:hover {
+    background-color: #deddb9;
+}
+
+.navbarItem a {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 5%; /* Asegura un diseño adaptable */
+    color: #605f6d;
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: lighter;
+    font-size: 1.1rem; /* Ajuste adaptable */
+    width: 100%;
+    align-content: center;
+}
+
+.navbarItem a:hover {
+    color: #605f6d;
+}
+
+/* Media Queries para Responsiveness */
+@media (max-width: 768px) {
+    .navbarContainer {
+        flex-direction: column; /* Cambia a diseño de columna */
+        height: auto; /* Ajusta el alto automáticamente */
+    }
+
+    .navbarList {
+        flex-direction: column; /* Coloca los elementos en una columna */
+        border: none;
+    }
+
+    .navbarItem {
+        border: none;
+    }
+
+    .navbarItem a {
+        padding: 10px 0;
+        font-size: 1rem; /* Fuente más pequeña */
+    }
+}
+
+@media (max-width: 480px) {
+    .navbarItem a {
+        font-size: 0.9rem; /* Reduce aún más para pantallas pequeñas */
+    }
+}
